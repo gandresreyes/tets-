@@ -1,0 +1,12 @@
+
+
+<app-loading *ngIf="!isUserLocationReady; else mapReady "></app-loading>
+
+<ng-template #mapReady>    
+    <app-map-view></app-map-view>
+    <app-btn-mylocation></app-btn-mylocation>
+    <app-table-places></app-table-places>   
+</ng-template>
+
+<app-humbolt-logo></app-humbolt-logo>
+

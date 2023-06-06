@@ -1,0 +1,89 @@
+.list-container{
+    left: 0px;
+    position: fixed;
+    top: 0px;
+
+    background-color: white;
+    border-radius:5px ;
+    border:1px solid rgba(128, 128, 128, 0.589);
+    box-shadow: 0px 10px010px rgba(0, 0, 0, 0.1) ;
+    padding: 5px;
+
+    width: 25%;    
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+svg{
+    width: 45px;
+    text-align: center;
+}
+.btn-container{
+    position: fixed;
+    right: 20px;
+    bottom:  150px;
+
+    background-color: rgb(125, 196, 18);
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+}
+
+.btn-container:hover{
+
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.btn-border{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:  1px solid #0d6efd;
+}
+.btn-sub{
+    font-size: 10px; 
+    font-weight: 500;
+}
+.close-open{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.show-table{
+    transform: translateX(-99%);
+    transition: 1s;
+}
+.hide-table{
+    transform: none;
+    transition: 1s;
+}
+
+.controlShow{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.controlhide{
+    transform: none;
+    transition: 1s;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    -webkit-box-shadoe: inset 0 06px#000;
+}
+
+
+
+
+
+

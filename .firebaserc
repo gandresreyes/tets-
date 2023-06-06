@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "humboldt-7f4fb"
+  },
+  "targets": {
+    "humboldt-7f4fb": {
+      "hosting": {
+        "prueba": [
+          "humboldt-7f4fb"
+        ]
+      }
+    }
+  }
+}
